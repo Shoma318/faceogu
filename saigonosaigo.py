@@ -90,7 +90,6 @@ webrtc = webrtc_streamer(
 
 import pandas as pd
 if webrtc.state.playing:
-# if webrtc.video_processor:
     col1, col2, col3 = st.columns(3)
     faceimage = col1.empty()
     analysis = col2.empty()
